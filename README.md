@@ -34,24 +34,44 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML describes tags with meaning. Some examples of semantic tags include: 
+<h1>
+<p>
+<section>
+<nav>
+<header>
+<footer>
+Some non-semantic tags are:
+<div>
+<span>
+Semantic HTML gives clarity and meaning to developers. Also, search engine algorithms optimize based on meaning. Search engine optimization correlates to the use of semantic HTML. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+"display:inline" is not affected by height or width properties while "display:block" is. "display:block" starts on a new line and takes up the whole width of the line while "display:inline" keeps the elements on the same line. 
 
 3. What are the 4 areas of the box model?
 
+Margin, border, padding, and content. 
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+It works on the cross axis. 
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable to developers because it is a version control system that allows many developers to add content in parallel. The content which is stored in Git keeps changing as more content is added. So having a Version Control System helps handle this by maintaining a history of what changes have happened.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your Team Lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add your Team Lead as collaborator on Github.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
